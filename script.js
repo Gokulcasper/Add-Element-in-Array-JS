@@ -1,14 +1,14 @@
 // Adding Elements in Array
 
-const fruits = ["apple", "orange", "mango"];
+const fruitsItems = ["apple", "orange", "mango"];
 
 //Push
-fruits.push("Grapes");
+fruitsItems.push("Grapes");
 
 //unshift
-fruits.unshift("lemon");
+fruitsItems.unshift("lemon");
 
 //splice
-fruits.splice(1, 0, "Banannas");
+fruitsItems.splice(1, 0, "Banannas");
 
-console.log(fruits);
+console.log(fruitsItems);
